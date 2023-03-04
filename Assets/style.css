@@ -1,8 +1,40 @@
 
+.main-header {
+    background-color: green;
+    display: flexbox;
+    padding: 40px;
+
+}
 
 
 
 
+
+
+
+
+
+
+.topnav {
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: inline;
+    justify-content: space-between;
+    padding: 7px;
+    background: green;
+    color: #fff;
+}
+
+.topnav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: underline;
+
+}
+.topnav {
+    float: right;
+  }
+
+ 
 
 
 
