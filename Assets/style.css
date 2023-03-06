@@ -67,6 +67,9 @@
     margin: 10px;
 }
 
+
+
+
 .surfReportText {
     position: absolute;
     bottom: 10px;
@@ -202,10 +205,13 @@
     background-image: -o-linear-gradient();
     width: 100%;
     position: relative;
+    border: 5px;
+    border-color: green;
 }
 
 .topSection img {
     width: 100%
+
 }
 
 .row {
@@ -215,6 +221,7 @@
 .column {
     width: 100%;
     position: relative;
+    margin: 10px;
 }
 
 .column img {
@@ -222,11 +229,20 @@
     height: 100px;
 }
 
+.column img:hover {
+    background-color: lightyellow;
+} 
 .information {
     display: flex;
     justify-content: space-evenly;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .middleSection:hover {
     background-color: lightblue !important;
+}
+
+.LEDwall img:hover {
+    background-color: lightcoral;
 }
