@@ -79,6 +79,16 @@
 
 }
 
-.aboutme {
+.borders {
     border-right: 4px solid blueviolet;
 }
+
+.topSection {
+    display: flex;
+    background-image: -o-linear-gradient();  
+}
+
+.middleSection {
+    flex-direction: row;
+}
+
