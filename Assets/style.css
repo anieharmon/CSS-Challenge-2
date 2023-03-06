@@ -33,28 +33,19 @@
 }
 
 .topnav {
-    background-color: whitesmoke;
     overflow: hidden;
-    display: inline;
     justify-content: space-between;
     padding: 7px;
     background: pink;
-    color: #fff;
-}
-
-.topnav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
     color: darkorchid;
-
-}
-
-.topnav {
     float: right;
+    cursor: pointer;
 }
 
 .topnav:hover {
-    background-color: lightblue !important;
+    background-color: lightblue;
 }
 
 .hero-image {
@@ -66,6 +57,117 @@
     position: absolute;
 }
 
+.surfreport {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjwrRMgG_-8YTdL_htXwg9Z9Alv92JLOiXhNUmvTogPA&s);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 10px;
+}
+
+.surfReportText {
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+    color: yellow;
+    background-color: blueviolet;
+
+}
+
+.surfReportText:hover {
+    background-color: lightblue;
+}
+
+
+
+.LEDwall {
+    background-image: url(data:image/jpeg;base64,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);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.LEDwallText {
+    position: absolute;
+    color: yellow;
+    background-color: blueviolet;
+    left: 30px;
+    bottom: 30px;
+}
+
+.LEDwallText:hover {
+    background-color: lightblue;
+}
+
+.calculator {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_pSS4S7sf79yTygzQwEMjtfgB9ZA-wqrce4ibq_m5&s);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 10px;
+}
+
+.calculatorText {
+    position: absolute;
+    color: yellow;
+    background-color: blueviolet;
+    left: 30px;
+    bottom: 30px;
+}
+
+.calculatorText:hover {
+    background-color: lightblue;
+}
+
+.pastelPuzzle {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTCkMZLnOZWRXsyql_xrMcRD49O2wSPgtTn3VGh3fH&s);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 10px;
+}
+
+.pastelPuzzleText {
+    position: absolute;
+    color: yellow;
+    background-color: blueviolet;
+    left: 30px;
+    bottom: 30px;
+}
+
+.pastelPuzzleText:hover {
+    background-color: lightblue;
+}
+
+.runBuddy {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDnrjaLKI9Rj2BXBMKYPpumMbMHw9rRczNI9EdNCQ9QA&s);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 10px;
+}
+
+.runBuddyText {
+    position: absolute;
+    color: yellow;
+    background-color: blueviolet;
+    left: 30px;
+    bottom: 30px;
+}
+
+.runBuddyText:hover {
+    background-color: lightblue;
+}
 
 .header-title {
     background-color: lightcoral;
@@ -75,20 +177,56 @@
 .titles {
     display: flex;
     flex-direction: row;
-
+    width: 100%;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
 
 }
 
 .borders {
     border-right: 4px solid blueviolet;
+    width: 30%;
+    margin-right: 30px;
+    padding-right: 10px;
+    text-align: right;
+
+}
+
+.content {
+    width: 70%;
 }
 
 .topSection {
     display: flex;
-    background-image: -o-linear-gradient();  
+    background-image: -o-linear-gradient();
+    width: 100%;
+    position: relative;
 }
 
-.middleSection {
-    flex-direction: row;
+.topSection img {
+    width: 100%
 }
 
+.row {
+    display: flex;
+}
+
+.column {
+    width: 100%;
+    position: relative;
+}
+
+.column img {
+    width: 100%;
+    height: 100px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middleSection:hover {
+    background-color: lightblue !important;
+}
